@@ -100,7 +100,7 @@ img {
 }
 
 .list {
-    list-style-type: none;
+    list-style: none;
 }
 
 .navigation-link,
@@ -130,9 +130,6 @@ img {
     align-items: center;
     gap: 10px;
     color: var(--primary-text-color);
-}
-
-.contact-logo {
     fill: currentColor;
 }
 
@@ -449,8 +446,7 @@ img {
     width: 370px;
 }
 
-.card:hover,
-.card:focus {
+.card:hover {
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
         1px 4px 6px rgba(0, 0, 0, 0.16);
 }
@@ -542,6 +538,10 @@ img {
 
 .social-link {
     background: rgba(255, 255, 255, 0.1);
+}
+
+.logo-social {
+    fill: var(--active-color);
 }
 
 .social-link:hover,
